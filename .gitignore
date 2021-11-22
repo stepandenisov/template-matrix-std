@@ -1,0 +1,7 @@
+/.vs
+/Debug
+/packages
+Matrix.vcxproj
+Matrix.vcxproj.filters
+Matrix.vcxproj.user
+Sour.cpp
