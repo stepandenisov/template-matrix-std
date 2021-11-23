@@ -9,14 +9,14 @@ using namespace std;
 matrix<int> intinit()
 {
 	unsigned first_size, second_size;
-	int value;
+	double value;
 	std::cout << "First size:" << std::endl;
 	std::cin >> first_size;
 	std::cout << "Second size:" << std::endl;
 	std::cin >> second_size;
 	std::cout << "Value:" << std::endl;
 	std::cin >> value;
-	return matrix<int>(first_size, second_size, value);
+	return matrix<int>(first_size, second_size, (int)value);
 }
 
 matrix<float> floatinit()
